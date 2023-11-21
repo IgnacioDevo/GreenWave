@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:opsz@9..40&family=Mulish:wght@200&display=swap');@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:opsz@9..40&family=Mulish:wght@200&display=swap');
+
 body {
     margin: 0;
     padding: 0;
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
 }
 
 header {
@@ -45,31 +47,61 @@ header {
 
 /* Main */
 
-.content-section {
+.present-section {
     display: flex;
-    margin: 50px;
+    padding: 30px;
 }
 
-.left-content,
-.right-content {
+.left-present,
+.right-present {
     flex: 1;
-    padding: 20px; /* Añade algún relleno si es necesario */
 }
 
-.left-content {
-    background-color: #f0f0f0; /* Color de fondo opcional para la parte izquierda */
+.left-present{
+    padding: 60px;
+    margin-right: 20px;
 }
 
-.left-content h1 {
-    font-size: 70px;
+.right-present {
+    padding: 20px;
+    margin-left: 5px; 
 }
 
-h1, p, button {
-    margin-bottom: 15px;
+
+
+.h1-present {
+    font-size: 100px;
+    line-height: 1.4; 
+    margin-bottom: 10px; 
 }
 
-img {
-    width: 563px; /* La imagen ocupa el 100% del contenedor */
-    height: 684px;
+.p-present {
+    font-size: 16px;
+    line-height: 1.6; 
+    margin-bottom: 20px; 
+}
+
+
+.right-present img {
+    max-width: 100%; 
+    height: auto;
     display: block;
+    margin: 0 auto; 
+    border-radius: 7px;
 }
+
+.btn-present {
+    width: 13%;
+    padding: 7px;
+    background-color: #1A1A1A;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.btn-present a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
